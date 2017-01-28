@@ -1,0 +1,39 @@
+
+body{
+    background-color: #698c94;
+}
+header{
+    background: #2A383B;
+}
+header{
+    width: 100%;
+    color: #D2DCDE;
+    position: fixed;
+    z-index: 999;
+}
+.myBtn{
+    margin-top: 24px;
+}
+.myRow{
+   padding-top: 100px;
+    max-width: 50%;
+    margin: auto;
+}
+table{
+    background-color: aliceblue;
+}
+.cursor{
+    cursor: pointer;
+}
+.up{
+    position: fixed;
+    z-index: 99999;
+    right: 100px;
+    bottom: 50px;
+    background-image: url(img/up.png);
+    background-size: cover;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    display: none;
+}
