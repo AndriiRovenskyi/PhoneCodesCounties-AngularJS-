@@ -6,7 +6,7 @@
     <title>Phone Book</title>
     <script src="angular/angular.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -20,13 +20,13 @@
             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
                 <h1>Phone Countries Codes</h1>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+            <div class="col-lg-4 col-md-3 col-sm-3 col-xs-3">
                 <div class="form-group">
                     <label for="inputdefault">Search</label>
                     <input class="form-control" id="inputdefault" type="text" ng-model="query">
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+            <div class="col-lg-4 col-md-3 col-sm-3 col-xs-3">
                 <button type="button" class="btn btn-success myBtn" ng-click="addCountri()">Add New Code</button>
             </div>
         </div>
@@ -49,8 +49,8 @@
                             <td>{{countri.name}}</td>
                             <td>{{countri.code}}</td>
                             <td>
-                                <button type="button" class="btn btn-warning" ng-click="chance(countri)">Chance</button>
-                                <button type="button" class="btn btn-danger" ng-click="delete(countri)">Delete</button>
+                                <button type="button" class="btn btn-warning myBtn2" ng-click="chance(countri)">Chance</button>
+                                <button type="button" class="btn btn-danger myBtn2" ng-click="delete(countri)">Delete</button>
                             </td>
                         </tr>
                     </tbody>
